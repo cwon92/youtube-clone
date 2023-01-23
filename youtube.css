@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  padding: 0 16px;
+  justify-content: space-between;
+  align-items: center;
+  height: 56px;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+
+.header1 {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.header1 button {
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  box-sizing: border-box;
+  cursor: pointer;
+  background: none;
+}
+
+.header1 a {
+  box-sizing: border-box;
+  align-items: center;
+  display: flex;
+}
+
+.header1 span {
+  font-size: 10px;
+  margin-left: -8px;
+  height: 32px;
+}
+
+.header2 {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header2>div {
+  display: flex;
+  flex: 2;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.search_left {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 40px 0 0 40px;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border-right: none;
+}
+
+.search_left div img {
+  align-items: center;
+  display: flex;
+}
+
+.search_left div:first-child {
+  padding: 0 16px;
+}
+
+.search_left input {
+  font-size: 16px;
+}
+
+.search_left div:last-child {
+  padding: 0 10px;
+}
+
+.search_right {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 0 40px 40px 0;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  height: 41.6px;
+  width: 64px;
+  background-color: #f0f0f0;
+}
+
+.search_right button img {
+
+  background: none;
+}
+
+.search_right button {
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  box-sizing: border-box;
+  cursor: pointer;
+  background: none;
+}
+
+.mic button {
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-left: 10px;
+  width: 35px;
+  height: 35px;
+}
+
+.mic button img {
+  width: 24px;
+  height: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header3 {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  flex-direction: row;
+  justify-content: right;
+}
+
