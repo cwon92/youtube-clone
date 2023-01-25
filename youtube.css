@@ -53,7 +53,7 @@
 
 .header2>div {
   display: flex;
-  flex: 2;
+  flex: 3;
   align-items: center;
   flex-direction: row;
   justify-content: center;
@@ -128,28 +128,6 @@
   height: 24px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .header3 {
   display: flex;
   flex: 1;
@@ -158,3 +136,139 @@
   justify-content: right;
 }
 
+.header3 div img {
+  padding-left: 16px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.header3 div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#mid {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+  box-sizing: border-box;
+
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding-left: 16px;
+  width: 220px;
+  box-sizing: border-box;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar_con {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  border-bottom: 1px solid #ccc;
+  margin-top: 10px;
+  padding-bottom: 5px;
+}
+
+.sidebar_home {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: left;
+  width: 200px;
+  height: 35px;
+  margin-bottom: 6px;
+}
+
+.sidebar_home a {
+  box-sizing: border-box;
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+  color: black;
+  width: 200px;
+  height: 35px;
+}
+
+.sidebar_home a span {
+  font-size: 14px;
+  padding-left: 16px;
+}
+
+.sidebar_home a img {
+  padding: 8px;
+}
+
+.sidebar_more {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: left;
+  width: 200px;
+  height: 35px;
+  margin-bottom: 6px;
+}
+
+.sidebar_more button {
+  box-sizing: border-box;
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+  background: none;
+  width: 180px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.sidebar_more button span {
+  font-size: 14px;
+  padding-left: 16px;
+}
+
+.sidebar_more button img {
+  padding: 8px;
+}
+
+.sidebar_con h1 {
+  font-size: 16px;
+  font-weight: normal;
+  padding: 6px 0 6px 7px;
+}
+
+.side_last {
+  display: flex;
+  box-sizing: border-box;
+  padding-left: 10px;
+  text-decoration: none;
+  margin-top: 10px;
+  flex-direction: column;
+}
+
+.side_last div a{
+  color: rgb(99, 96, 96);
+  text-decoration: none;
+}
+
+.side_last div a span {
+  font-size: 12px;
+  text-decoration: none;
+  text-align: center;
+}
+.side_last>div {
+  padding: 5px 0 5px;
+}
+
+.side_text {
+  font-size: 10px;
+  line-height: 16px;
+  color: rgb(99, 96, 96);
+  display: inline-block;
+}
+
+.side_text a span {
+  color: blue;
+}
