@@ -13,6 +13,7 @@
   height: 56px;
   flex-direction: row;
   box-sizing: border-box;
+  position: sticky;
 }
 
 .header1 {
@@ -271,4 +272,146 @@
 
 .side_text a span {
   color: blue;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  height: 100%;
+  padding-left: 30px;
+  padding-right: 16px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: left;
+  padding-top: 6px;
+  width: 100%;
+}
+
+.nav div button {
+  width: 100%;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 0 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav div {
+  padding-left: 14px;
+}
+
+.nav div button span {
+  font-size: 14px;
+  padding: 0 4px;
+}
+
+.nav1 button {
+  width: 100%;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 0 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f0f0f0;
+  background-color: black;
+}
+
+.nav1 button span {
+  font-size: 14px;
+  padding: 0 4px;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  padding-left: 14px;
+  box-sizing: border-box;
+}
+
+.contents_row {
+  display: flex;
+  flex-direction: row;
+  padding-top: 25px;
+  box-sizing: border-box;
+  padding-bottom: 20px;
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding-right: 14px;
+}
+
+.video>a>img{
+  border-radius: 8px;
+  width: 296px;
+  height: 168px;
+}
+
+.video_h {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+}
+
+.thumb {
+  display: flex;
+}
+
+.thumb a img {
+  border-radius: 50%;
+}
+
+.video_h_text {
+  display: flex;
+  flex-direction: column;
+  padding-left: 12px;
+  text-decoration: none;
+}
+
+.video_h_text a {
+  text-decoration: none;
+  color: black;
+  box-sizing: border-box;
+}
+
+.video_h_text2 {
+  display: flex;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.video_h_text3 {
+  display: flex;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.video_h_text h2 {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.video_h_text2 a span {
+  font-size: 8px;
+}
+
+.video_h_text3 a span {
+  font-size: 12px;
+}
+
+.video_h_text3 {
+  line-height: 10px;
 }
